@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Fusingword",
+  "description": "Instant synonyms and concise definitions anywhere on the web. Select a word to see alternatives and 2\u20133 meanings.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Fusingword",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.datamuse.com/*",
+    "https://api.dictionaryapi.dev/*"
+  ],
+  "commands": {
+    "fusingword_lookup_selection": {
+      "suggested_key": {
+        "default": "Alt+W",
+        "mac": "Alt+W"
+      },
+      "description": "Look up the currently selected word with Fusingword"
+    }
+  },
+  "options_page": "options.html"
+}

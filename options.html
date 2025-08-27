@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fusingword — Options</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <main>
+    <h1>Fusingword — Options</h1>
+    <label class="row">
+      <span>Theme</span>
+      <select id="theme">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+      </select>
+    </label>
+    <label class="row">
+      <span>Show mini lookup button on selection</span>
+      <input type="checkbox" id="miniBtn" checked />
+    </label>
+    <div class="row">
+      <button id="save">Save</button>
+      <span id="status" class="muted"></span>
+    </div>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

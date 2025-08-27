@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fusingword</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main>
+    <h1>Fusingword</h1>
+    <div class="row">
+      <input id="word" type="text" placeholder="Type a word…" autofocus />
+      <button id="search">Search</button>
+    </div>
+    <section>
+      <h2>Meanings</h2>
+      <ul id="meanings"></ul>
+    </section>
+    <section>
+      <h2>Alternatives</h2>
+      <div id="synonyms" class="chips"></div>
+    </section>
+    <footer>
+      <a href="options.html" target="_blank">Options</a>
+    </footer>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
