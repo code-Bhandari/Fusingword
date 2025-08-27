@@ -12,6 +12,9 @@ No more getting stuck while reading. Smoothly fuse words into your understanding
 
 <img width="1366" height="592" alt="FW1" src="https://github.com/user-attachments/assets/5044423b-603d-4710-91df-fb4cec72884d" />
 
+<img width="1366" height="597" alt="Screenshot (724)" src="https://github.com/user-attachments/assets/177c6528-45f4-41f2-b7c5-0e5d5d1e5aa9" />
+
+
 
 ⚡ Features
 
